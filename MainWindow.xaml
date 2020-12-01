@@ -1,0 +1,111 @@
+﻿<Window x:Class="PruebaWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PruebaWPF"
+        mc:Ignorable="d"
+        Title="Majhong" MinHeight="540" MaxWidth="800" MinWidth="500" MaxHeight="800">
+    <Grid>
+
+        <Menu>  <!--CREO 2 MENÚS SUPERIORES CON SUS ITEMS-->
+            <MenuItem Header="Juego">
+                <MenuItem Header="Nuevo"/>
+                <Separator />
+                <MenuItem Click="Configurar_Click" Header="Configurar" />
+                <Separator/>
+                <MenuItem Click="Salir_Click" Header="Salir"/>
+            </MenuItem>
+            <MenuItem Header="Puntuaciones">
+                <MenuItem Click="HOF_Click" Header="Hall of Fame"/>
+                <Separator/>
+                <MenuItem Click="Exportar_Click" Header="Exportar"/>
+            </MenuItem>
+        </Menu>
+        <WrapPanel Margin="22"> <!--CREO UN CONTENEDOR CON BOTONES QUE LOS AGRUPA HORIZONTAL O VERTICAL-->
+
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>   <!--PONGO UNA RUTA RELATIVA PARA LA IMAGEN-->
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+            <Button>
+                <Button.Width>179</Button.Width>
+                <Button.Height>115</Button.Height>
+                <Image Source="/Resources/foto.png"/>
+            </Button>
+        </WrapPanel>
+    </Grid>
+
+    
+</Window>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="PruebaWPF.Configurar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PruebaWPF"
+        mc:Ignorable="d"
+        Title="Configuración" Height="250" Width="400">
+    
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="346" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <WrapPanel Margin="0,30,0,0">
+            <Label Name="lblTiempo" Grid.Column="1">Tiempo transición imágenes</Label>  <!--CREO UNA LABEL PARA FIJAR TEXTO-->
+            <TextBox x:Name="txtRespuesta" MinWidth="100" Margin="30,0,0,0" HorizontalAlignment="Right" Height="27" Width="145"/> <!--CREO UN TEXTBOX PARA PODER INTRODUCIR TEXTO-->
+        </WrapPanel>
+
+        <WrapPanel Grid.Row="2" HorizontalAlignment="Right" Margin="0,100,0,0" Width="130"> <!--CREO UNA BOTONERA-->
+            <Button IsCancel="True" MinWidth="60">Cancelar</Button>
+            <Button IsDefault="True" Name="btnAceptar_Click" MinWidth="60" Margin="10,0,0,0">Aceptar</Button>
+        </WrapPanel>
+    </Grid>
+</Window>
